@@ -29,6 +29,7 @@ We may update these Terms at any time. Continued use of the site following chang
 For questions about these Terms, please contact us at contact@hydcompany.com.
 
 ## 7. Addendum
-| Name   | Email             |
-|--------|-------------------|
-| Nadeem Ali | na@hydcompany.com |
+| Name          | Email             |
+|---------------|-------------------|
+| Nadeem Ali    | na@hydcompany.com |
+| John Kennedy  | jk@hydcompany.com |
