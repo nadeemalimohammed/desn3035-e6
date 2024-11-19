@@ -27,7 +27,7 @@ jobs:
           name: docs
           path: pdfs
 
-name: Docs to PDF
+name: Build PDF
 # This workflow is triggered on pushes to the repository.
 on:
   push:
@@ -91,8 +91,8 @@ jobs:
         uses: actions/upload-release-asset@v1
         with:
           upload_url: ${{ steps.release.outputs.upload_url }}
-          asset_path: downloaded_docs/terms.md
-          asset_name: docs.zip
+          asset_path: downloaded_docs/terms.pdf
+          asset_name: terms.pdf
           asset_content_type: application/zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
